@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  font: normal 100%/1.5 "Baskerville", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+article {
+  max-width: 47em;
+  margin: auto;
+}
+
+header {
+  border: 3px solid #259f95;
+  background-color: #259f95;
+  border-radius: 0 0 8px 8px;
+}
+
+h1 {
+  font-weight: normal;
+  color: #fff;
+  padding-left: 1.5em;
+}
+
+.chapter-num {
+  font-size: .75em;
+  font-style: italic;
+  display: block;
+}
+
+.colon {
+  display: none;
+}
